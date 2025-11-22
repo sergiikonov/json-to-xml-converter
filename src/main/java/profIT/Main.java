@@ -20,7 +20,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
-
     public static final String DIRECTOR = "director";
     public static final String RELEASE_YEAR = "release_year";
     public static final String GENRES = "genres";
@@ -57,7 +56,6 @@ public class Main {
 
         } catch (Exception e) {
             System.err.println("Critical execution error: " + e.getMessage());
-            e.printStackTrace();
             System.exit(1);
         }
     }
